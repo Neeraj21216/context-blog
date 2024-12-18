@@ -5,7 +5,7 @@ import Spinners from "./Spiners";
 export const Blogs=()=>{ 
     const {loading}=useContext(AppContext);
     const {posts}=useContext(AppContext);
-    return(<div className="flex flex-col  justify-center w-8/12 mx-auto my-32">
+    return(<div className="flex flex-col  justify-center w-6/12 mx-auto my-32">
         <div className="flex flex-col items-center">
         {
             loading?
